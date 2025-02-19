@@ -39,8 +39,7 @@ The dataset used in this project is the Telco Customer Churn dataset, available 
 ## Installation Instructions
 
 ### a. Clone the repository:
-git clone https://github.com/your-username/telco-customer-churn-prediction.git
-cd telco-customer-churn-prediction
+git clone [https://github.com/sujalmdhar/Telco-Churn-Prediction]
 
 ### b. Install dependencies:
 Install required packages to run this code.
@@ -57,6 +56,7 @@ Install required packages to run this code.
 - joblib
 
 ## Files
+- `WA_Fn-UseC_-Telco-Customer-Churn.csv`: CSV file.
 - `Telco_Churn_Prediction.ipynb`: Jupyter notebook with the analysis and model development.
 - `churn_prediction.py`: Python script for the same analysis.
 - `telco_churn_model.pkl`: The trained Random Forest model.
@@ -92,7 +92,7 @@ The models were evaluated using cross-validation (5-fold stratified), and the fi
 
 ## Reproduction Instructions
 - Clone this repository and install the required dependencies.
-- Visit Kaggle Telco Customer Churn Dataset and download the dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv).
+- Visit Kaggle Telco Customer Churn Dataset and download the dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv) or download it from my repository.
 - Run the Jupyter notebook or the Python script to reproduce the analysis.
 
 ## Results and Interpretation
