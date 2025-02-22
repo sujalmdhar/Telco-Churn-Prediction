@@ -92,6 +92,13 @@ Accuracy, precision, recall, F1-score, and AUC-ROC were calculated to evaluate m
 ## Model Evaluation
 The models were evaluated using cross-validation (5-fold stratified), and the final model was selected based on the best performance. Random Forest emerged as the best model, achieving the highest accuracy and AUC-ROC score.
 
+## Model Interpretation and Explainability
+- Local Interpretable Model-agnostic Explanations (LIME): Local Interpretable Model-agnostic Explanations was used to understand individual predictions made by the Random Forest model.
+- Permutation Feature Importance: Permutation feature importance was used to assess the global importance of features.
+- Feature Importance Analysis: A DataFrame is created to store the importance of each feature based on permutation importance. The features are sorted in descending order of their importance values to highlight the most significant predictors.
+- Partial Dependence Plots (PDP): Partial Dependence Plots were generated to visualize the marginal effect of specific features (tenure, MonthlyCharges, TotalCharges) on the predicted probability of churn. PDPs show how the model's predictions change as the value of a feature varies, holding other features constant.
+- Individual Conditional Expectation (ICE): Individual Conditional Expectation (ICE) plots were created to show how the predictions for individual instances change as a feature varies.
+  
 ## Reproduction Instructions
 - Clone this repository and install the required dependencies.
 - Visit Kaggle Telco Customer Churn Dataset and download the dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv) or download it from my repository.
