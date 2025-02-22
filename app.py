@@ -171,7 +171,7 @@ st.sidebar.markdown("This app predicts customer churn for a telecom company base
 st.markdown(
     """
     <div class="footer">
-        <p>Created by <a href="https://github.com/sujalmanandhar" target="_blank">Sujal Manandhar</a> | Powered by Streamlit</p>
+        <p>Created by <a href="https://github.com/sujalmdhar" target="_blank">Sujal Manandhar</a> | Powered by Streamlit</p>
     </div>
     """,
     unsafe_allow_html=True,
