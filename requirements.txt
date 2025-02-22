@@ -1,22 +1,13 @@
-# Base Dependencies
+streamlit
 numpy
 pandas
 scikit-learn
-streamlit
 matplotlib
 seaborn
 plotly
 joblib
 tqdm
-
-# NLP Dependencies (If Needed)
+rich
 spacy
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-
-# Logging & Error Handling
-rich
-
-# GDAL (Geospatial Data Abstraction Library)
 GDAL==3.6.4
-
-# Any Other Dependencies from Your Code
