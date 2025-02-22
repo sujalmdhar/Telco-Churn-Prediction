@@ -7,3 +7,4 @@ shap
 joblib
 lime
 imbalanced-learn
+plotly
