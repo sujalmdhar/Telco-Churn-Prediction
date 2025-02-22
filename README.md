@@ -101,6 +101,8 @@ The models were evaluated using cross-validation (5-fold stratified), and the fi
 - The final model used for churn prediction was Random Forest, which showed the best performance in terms of accuracy and AUC-ROC.
 - The feature importance analysis indicated that "MonthlyCharges," "tenure," and "Contract" were the most important factors influencing customer churn.
 - LIME and PDP were used to interpret the individual predictions, providing insights into the key features driving churn.
+- Customer Segmentation through clustering revealed three distinct customer groups with different churn risks, helping businesses tailor retention strategies.
+- SMOTE effectively addressed class imbalance, leading to improved performance in predicting churn.
 
 ## Contributing
 Feel free to open issues, submit pull requests, or contribute in any other way. If you want to add features or improve the project, please ensure that you follow the guidelines.
