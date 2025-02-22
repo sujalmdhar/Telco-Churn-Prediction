@@ -58,9 +58,11 @@ Install required packages to run this code.
 ## Files
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv`: CSV file.
 - `Telco_Churn_Prediction.ipynb`: Jupyter notebook with the analysis and model development.
-- `churn_prediction.py`: Python script for the same analysis.
+- `telco_churn_prediction.py`: Python script for the same analysis.
 - `telco_churn_model.pkl`: The trained Random Forest model.
-- `final_report.pdf`: A detailed report of the analysis, methodology, and results.
+- `scaler.pkl`: File contains the mean and standard deviation of each feature from the training data, used for scaling.
+- `label_encoder`: File contains the mapping between original string labels and numerical labels, used for encoding the target variable.
+- `telco_report.pdf`: A detailed report of the analysis, methodology, and results.
 
 ## Model Development
 
