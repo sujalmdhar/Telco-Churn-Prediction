@@ -1,5 +1,7 @@
 # Telco Customer Churn Prediction
 
+Telco Customer Churn Prediction Web App Interface - https://telco-churn-prediction-0929.streamlit.app/
+
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -62,6 +64,7 @@ Install required packages to run this code.
 - `telco_churn_model.pkl`: The trained Random Forest model.
 - `scaler.pkl`: File contains the mean and standard deviation of each feature from the training data, used for scaling.
 - `label_encoder`: File contains the mapping between original string labels and numerical labels, used for encoding the target variable.
+- `lime_explanation`: Customer index 5,10, & 15.
 - `telco_report.pdf`: A detailed report of the analysis, methodology, and results.
 
 ## Model Development
